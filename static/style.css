@@ -1,0 +1,26 @@
+.errorlist>li{
+    color:red;
+}
+
+.profile{
+    height:280px;
+    width:300px;
+    border-radius:250px;
+}
+
+.aligncenter{
+    text-align:center;
+}
+
+.floatright{
+    float:right;
+}
+
+.block{
+    display:block;
+    text-align:center;
+    color:red;
+    font-size:30px;
+    margin-top:-15px;
+    margin-left:-9px;
+}

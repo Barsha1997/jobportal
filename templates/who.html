@@ -1,0 +1,30 @@
+{% extends 'master/base.html' %}
+{% block 'title' %} who are you?  {% endblock %}
+{% block 'content' %}
+
+    <div class="container">
+        <div class="row justify-content-md-center" style="margin-top:12%;">
+            <div class="col col-lg-6">
+                {% include 'partial/message.html' %}
+                <div class="card">
+                    <div class="card-header">
+                        who are you?
+                    </div>
+                    <div class="card-body" style="padding-left:23%;">
+                        <a href="{% url 'employee_create' %}" class="btn btn-success">I am employee</a> | <a href="{%  url 'employeer_create' %}" class="btn btn-danger">I am employer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block 'css' %}
+
+<style>
+    body{
+    background-color:#417690;
+    }
+</style>
+{% endblock %}
